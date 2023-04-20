@@ -4113,7 +4113,7 @@
             case 2:
                 b.appendChild(a)
         }
-        Lh(b) && (b.setAttribute("data-init-display", b.style.display), b.style.display = "block")
+        Lh(b) && (b.setAttribute("data-init-disgameshare", b.style.disgameshare), b.style.disgameshare = "block")
     };
 
     function ri(a, b, c) {
@@ -4274,7 +4274,7 @@
             try {
                 var c = td(b, a)
             } catch (d) {}
-            return !c || "none" != c.display && !("absolute" == c.position && ("hidden" == c.visibility || "collapse" == c.visibility))
+            return !c || "none" != c.disgameshare && !("absolute" == c.position && ("hidden" == c.visibility || "collapse" == c.visibility))
         }
         return !1
     }
@@ -4900,7 +4900,7 @@
                     if (f = Zi(K(f.value, Xg, 1) || null)) f = f.query(l.document), 0 < f.length && m.push(f[0]);
                 m = m.filter(ph).filter(qh(m)).filter(rh(l));
                 m.sort(sh);
-                if (m = m[0] || null) e = l.document.createElement("div"), e.id = "google-auto-placed-read-aloud-player-reserved", Gd(e, {
+                if (m = m[0] || null) e = l.document.createElement("div"), e.id = "google-auto-placed-read-aloud-gameshareer-reserved", Gd(e, {
                     width: "100%",
                     height: "65px"
                 }), m.insertBefore(e, m.firstChild), cj(l).audioSenseSpaceReserved = !0
@@ -5088,7 +5088,7 @@
         f.Ab && Si(k, f.Ab);
         h = (new jd(h)).createElement("INS");
         k = h.style;
-        k.display = "block";
+        k.disgameshare = "block";
         k.margin =
             "auto";
         k.backgroundColor = "transparent";
@@ -5148,8 +5148,8 @@
                     (c.adsbygoogle = c.adsbygoogle || []).push(m)
                 }
             } catch (Z) {
-                (A = f.xa) && A.parentNode && (F = A.parentNode, F.removeChild(A), Lh(F) && (F.style.display =
-                    F.getAttribute("data-init-display") || "none"));
+                (A = f.xa) && A.parentNode && (F = A.parentNode, F.removeChild(A), Lh(F) && (F.style.disgameshare =
+                    F.getAttribute("data-init-disgameshare") || "none"));
                 A = !1;
                 break a
             }
@@ -5760,7 +5760,7 @@
             if (!a.frames[b])
                 if (d.body) {
                     var e = sd("IFRAME", d);
-                    e.style.display = "none";
+                    e.style.disgameshare = "none";
                     e.style.width = "0px";
                     e.style.height = "0px";
                     e.style.border = "none";
@@ -5821,7 +5821,7 @@
                         gdprApplies: !0,
                         cmpLoaded: !0,
                         cmpStatus: "loaded",
-                        displayStatus: "disabled",
+                        disgameshareStatus: "disabled",
                         apiVersion: "2.0",
                         cmpVersion: 1,
                         cmpId: 300
@@ -8046,7 +8046,7 @@
             } catch (k) {}
             Pd = null
         }
-        if (Pd) return null;d = sd("IFRAME");d.id = "google_esf";d.name = "google_esf";d.src = ed(a.Kb).toString();d.style.display = "none";
+        if (Pd) return null;d = sd("IFRAME");d.id = "google_esf";d.name = "google_esf";d.src = ed(a.Kb).toString();d.style.disgameshare = "none";
         return d
     }
 
@@ -8515,7 +8515,7 @@
                 l.position = "relative";
                 l.visibility = "visible";
                 l.backgroundColor = "transparent";
-                k.style.display = "inline-block";
+                k.style.disgameshare = "inline-block";
                 a.appendChild(k);
                 vp(d, b, a, c, {
                     pb: f,
@@ -8535,7 +8535,7 @@
             if (!f.va || f.va && ((0 == g ? null : e / g) || 0) >= f.va) return a.className += " adsbygoogle-ablated-ad-slot", c = c.google_sv_map = c.google_sv_map || {}, d = La(a), b.google_element_uid = d, c[b.google_element_uid] = b, a.setAttribute("google_element_uid", String(d)), "slot" === f.Hb && (null !== Dd(a.getAttribute("width")) &&
                 a.setAttribute("width", 0), null !== Dd(a.getAttribute("height")) && a.setAttribute("height", 0), a.style.width = "0px", a.style.height = "0px"), !0
         }
-        if ((f = td(a, c)) && "none" === f.display && !("on" === b.google_adtest || 0 < b.google_reactive_ad_format || d)) return c.document.createComment && a.appendChild(c.document.createComment("No ad requested because of display:none on the adsbygoogle tag")), !0;
+        if ((f = td(a, c)) && "none" === f.disgameshare && !("on" === b.google_adtest || 0 < b.google_reactive_ad_format || d)) return c.document.createComment && a.appendChild(c.document.createComment("No ad requested because of disgameshare:none on the adsbygoogle tag")), !0;
         a = null == b.google_pgb_reactive || 3 === b.google_pgb_reactive;
         return 1 !== b.google_reactive_ad_format && 8 !== b.google_reactive_ad_format ||
             !a ? !1 : (x.console && x.console.warn("Adsbygoogle tag with data-reactive-ad-format=" + String(b.google_reactive_ad_format) + " is deprecated. Check out page-level ads at https://www.google.com/adsense"), !0)
@@ -8568,7 +8568,7 @@
         a.className = "adsbygoogle";
         a.className += " adsbygoogle-noablate";
         Gd(a, {
-            display: "none"
+            disgameshare: "none"
         });
         return a
     }
